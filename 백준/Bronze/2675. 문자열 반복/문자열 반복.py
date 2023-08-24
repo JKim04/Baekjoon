@@ -1,7 +1,8 @@
 #2675
-T = int(input())
-for i in range(T):
-    a, b = input().split()
-    for i in b:
-        print(i * int(a), end='')
+t = int(input())
+for i in range(t):
+    r, s = input().split()
+    for j in s:
+        j *= int(r)
+        print(j, end='')
     print()
